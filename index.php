@@ -1,4 +1,4 @@
-<?php include_once 'Includes/Head.php'?>
+<?php include_once 'Head.php'?>
 
  <!--               <main>
                     <div id="sol"></div>
