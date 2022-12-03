@@ -1,0 +1,48 @@
+.MenuD{
+    grid-column: 1/12;
+    grid-row: 1/2;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    font-size: 8vw;
+}
+
+#Home{
+    grid-column: 1/12;
+    grid-row: 1/2;
+    width: 100%;
+    padding: 1vw;
+    margin: auto;
+    text-align: center;
+}
+
+#Home>div:hover{
+    text-shadow: white 0.5vw 1vw 1.5vw;
+    border: 0.5vw white dashed;
+}
+
+#Home:hover>#SubMenuD{
+    display: grid;
+}
+
+#SubMenuD{
+    display: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    font-size: 8vw;
+}
+
+#SubMenuD>li:hover{
+    text-shadow: white 0.5vw 1vw 1.5vw;
+    border: dashed white 0.5vw;
+    
+}
